@@ -1,3 +1,5 @@
+//Q1)Write a program that checks if a given year is a leap year or not using both if-else and switch
+
 import java.util.*;
 import java.lang.*;
 
