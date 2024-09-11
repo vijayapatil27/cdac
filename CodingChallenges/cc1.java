@@ -1,6 +1,6 @@
 import java.lang.*;
 public class cc1{
-  
+//Q1. Write a Java program to print a hollow pyramid pattern using asterisks (*) and spaces.   
 static void q1(){
 int rows=5;
 for(int i=1;i<=rows;i++){
@@ -19,7 +19,8 @@ System.out.println();
 	}
 }
 
-  
+//Q2. Write a Java program to print a hollow inverted pyramid pattern using asterisks (*) and 
+spaces.   
 static void q2(){
 int n=5;
 for(int i=n;i>=1;i--) {
@@ -37,7 +38,7 @@ System.out.print(" ");
 System.out.println();
         }
 }
-  
+//Q4. Write a Java program to print a hollow right triangle pattern using numbers and spaces.   
 static void q4(){
 int n = 5; 
  for(int i=1;i<=n;i++){
@@ -53,7 +54,7 @@ System.out.println();
         }
 }
 
-  
+  //Q5. Write a Java program to print a Palindrome Number Pyramid.
 static void q5(){
 int row=5;
 for(int i=1;i<=row;i++){
@@ -66,7 +67,7 @@ System.out.print(j+"");
  System.out.println();
          }
 }
-  
+  //Q6. Write a Java program to print a diamond pattern using numbers.
 static void q6(){
 int row=5;
 for(int i=1;i<=row;i++){
@@ -76,7 +77,7 @@ for(int j=i-1;j>=1;j--) System.out.print(j+" ");
 System.out.println();
          }
 }
-
+//Q7. Write a Java program to print the following pattern using numbers.
 static void q7(){
 
 int spaces=9;//2*5-1
@@ -95,7 +96,7 @@ spaces-=2;
 	}
 }
 
-  
+//Q8. Write a Java program to print the following pattern using numbers.  
 static void q8(){
 int rows=6;
 for(int i=0;i<rows;i++) {
@@ -112,7 +113,7 @@ System.out.println();
         }
 }
 
-  
+  //Q10. Write a Java program to print the following pattern using numbers.
 static void q10(){
 int trows=7;
 for(int i=1;i<=trows;i++){
